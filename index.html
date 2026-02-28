@@ -49,17 +49,11 @@
     }
 
     .avatar {
-      width: 64px;
-      height: 64px;
+      width: 72px;
+      height: 72px;
       border-radius: 50%;
-      background: var(--black);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-family: 'Instrument Serif', serif;
-      font-size: 1.5rem;
-      color: var(--white);
-      font-style: italic;
+      object-fit: cover;
+      border: 2px solid var(--light);
     }
 
     .name {
@@ -173,11 +167,19 @@
   <div class="container">
 
     <div class="profile">
-      <div class="avatar">R</div>
+      <img class="avatar" src="https://pbs.twimg.com/profile_images/1995396512562696192/6RZ6IFcZ_400x400.jpg" alt="Rahul Bhadoriya" />
       <span class="name">Rahul Bhadoriya</span>
       <span class="handle">@rahulbhadoriya · dacoit.design</span>
       <p class="bio">Brand experience designer. Building at the intersection of design, AI, and craft.</p>
     </div>
+
+    <a class="link-card" href="https://rahulbhadoriya.com" target="_blank" rel="noopener">
+      <div class="link-left">
+        <span class="link-title">Portfolio</span>
+        <span class="link-desc">rahulbhadoriya.com — brand experience design</span>
+      </div>
+      <span class="link-arrow">↗</span>
+    </a>
 
     <span class="section-label">Projects</span>
 
